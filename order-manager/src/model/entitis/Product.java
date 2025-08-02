@@ -32,7 +32,7 @@ public class Product {
     return this.name;
   }
 
-  public void setPrice(Double Price){
+  public void setPrice(Double price){
     this.price = (price > 0.00) ? price : 0.00;
   }
 
